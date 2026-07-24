@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree B.P. Foods | Premium Rice Trading — Motihari, Bihar</title>
+<meta name="description" content="Shree B.P. Foods — 30+ years of trusted premium rice trading in Motihari, Bihar. Authorized dealer of Zeeba Basmati and Ripuraj Premium Rice.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ GRAIN CURSOR / LOADER ============ -->
+<div class="grain-loader" id="grainLoader" aria-hidden="true">
+  <svg viewBox="0 0 120 40" class="grain-loader__svg">
+    <ellipse cx="20" cy="20" rx="9" ry="4" class="grain g1"/>
+    <ellipse cx="45" cy="20" rx="9" ry="4" class="grain g2"/>
+    <ellipse cx="70" cy="20" rx="9" ry="4" class="grain g3"/>
+    <ellipse cx="95" cy="20" rx="9" ry="4" class="grain g4"/>
+  </svg>
+  <span>Shree B.P. Foods</span>
+</div>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-wrap">
+    <a href="#home" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <img src="images/logo.jpeg" alt="Shree B.P. Foods logo">
+      </span>
+      <span class="brand-text">
+        <strong>Shree B.P. Foods</strong>
+        <em>Est. Motihari &middot; Bihar</em>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#products" class="nav-link">Products</a>
+      <a href="#quality" class="nav-link">Quality</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">
+        <i class="fa-solid fa-sun sun-icon"></i>
+        <i class="fa-solid fa-moon moon-icon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <img src="images/ss.jpeg" alt="" class="hero-bg-photo" aria-hidden="true">
+    <div class="hero-overlay"></div>
+    <div class="hero-grain-drift" aria-hidden="true">
+      <svg viewBox="0 0 200 60" preserveAspectRatio="none">
+        <ellipse cx="20" cy="30" rx="10" ry="4.5"/>
+        <ellipse cx="70" cy="15" rx="10" ry="4.5"/>
+        <ellipse cx="120" cy="42" rx="10" ry="4.5"/>
+        <ellipse cx="170" cy="20" rx="10" ry="4.5"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <p class="eyebrow"><span class="eyebrow-line"></span> Authorized Dealer &middot; Zeeba &amp; Ripuraj</p>
+    <h1>30+ Years of Excellence in<br><span class="gold-text">Premium Rice Trading</span></h1>
+    <p class="hero-sub">Delivering premium quality Basmati, Jeera, Raw and Parboiled Rice across Bihar with trust, purity, and commitment.</p>
+
+    <div class="hero-btns">
+      <a href="#products" class="btn btn-gold"><i class="fa-solid fa-bowl-rice"></i> View Products</a>
+      <a href="https://wa.me/919135017108" target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+      <a href="#contact" class="btn btn-outline">Contact Us</a>
+    </div>
+
+    <div class="hero-stamp" aria-hidden="true">
+      <svg viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="56" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="60" cy="60" r="48" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path id="stampCirclePath" d="M60,12 a48,48 0 1,1 -0.1,0" fill="none"/>
+        <text font-size="8.6" letter-spacing="2.5" fill="currentColor">
+          <textPath href="#stampCirclePath" startOffset="0%">TRUSTED SINCE DAY ONE &middot; MOTIHARI BIHAR &middot; </textPath>
+        </text>
+        <text x="60" y="56" text-anchor="middle" font-size="22" font-weight="700" fill="currentColor" font-family="'Playfair Display', serif">30+</text>
+        <text x="60" y="72" text-anchor="middle" font-size="7.5" letter-spacing="1.5" fill="currentColor">YEARS</text>
+      </svg>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <div class="about-visual">
+      <div class="about-frame">
+        <img src="images/ripuraj.jpeg" alt="Ripuraj premium rice range by Shree B.P. Foods">
+      </div>
+      <div class="about-badge">
+        <i class="fa-solid fa-award"></i>
+        <span>Govt. Recognized<br>5-Star Company Dealer</span>
+      </div>
+    </div>
+
+    <div class="about-copy">
+      <p class="eyebrow"><span class="eyebrow-line"></span> About Us</p>
+      <h2>Welcome to <span class="gold-text">Shree B.P. Foods.</span></h2>
+      <p>For more than 30+ years, Shree B.P. Foods has been serving customers with premium quality rice in Motihari and across Bihar. We are an authorized dealer of Zeeba Basmati Rice and Ripuraj Premium Rice.</p>
+      <p>Shree B.P. Foods is famous for premium quality rice in Bihar. It deals in <strong>ZEEBA BASMATI RICE</strong> (a Government-recognized 5-Star company). As a top-selling Basmati rice brand worldwide, its varieties like Mini Mongra, Mongra, Super Mongra, Dubar, Tibar, Premium, and Classic Basmati rice have been spreading aroma in Motihari and across Bihar for over 10 years.</p>
+      <p>We also offer <strong>RIPURAJ Premium Basmati</strong>, as well as kheer and jeera rice options like Sonashakti, Mahashakti, Zayka, and Sonachoor. RIPURAJ continues to lead the market in Jeera rice across India.</p>
+      <p>Our mission is to deliver fresh, hygienic, and premium quality rice at competitive prices with complete customer satisfaction. We proudly serve retailers, wholesalers, restaurants, hotels, and households.</p>
+
+      <div class="highlight-strip">
+        <i class="fa-solid fa-seedling"></i>
+        <p>These rice varieties are available 365 days a year at our shop. Heartly welcome to my shop, thank you!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="section why-us" id="why-us">
+  <div class="container">
+    <p class="eyebrow center"><span class="eyebrow-line"></span> Why Choose Us <span class="eyebrow-line"></span></p>
+    <h2 class="center">The Shree B.P. Foods <span class="gold-text">Promise</span></h2>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <i class="fa-solid fa-hourglass-half"></i>
+        <h3>30+ Years Experience</h3>
+        <p>Three decades of trusted trading relationships in Bihar.</p>
+      </div>
+      <div class="why-card">
+        <i class="fa-solid fa-medal"></i>
+        <h3>Premium Quality Rice</h3>
+        <p>Sourced from India's finest and most trusted mills.</p>
+      </div>
+      <div class="why-card">
+        <i class="fa-solid fa-handshake"></i>
+        <h3>Trusted Dealer</h3>
+        <p>Authorized partner of Zeeba and Ripuraj brands.</p>
+      </div>
+      <div class="why-card">
+        <i class="fa-solid fa-calendar-check"></i>
+        <h3>365 Days Availability</h3>
+        <p>Every variety, in stock, every single day of the year.</p>
+      </div>
+      <div class="why-card">
+        <i class="fa-solid fa-tags"></i>
+        <h3>Affordable Prices</h3>
+        <p>Premium quality without the premium price tag.</p>
+      </div>
+      <div class="why-card">
+        <i class="fa-solid fa-face-smile"></i>
+        <h3>Customer Satisfaction</h3>
+        <p>Complete satisfaction guaranteed on every order.</p>
+      </div>
+      <div class="why-card">
+        <i class="fa-solid fa-warehouse"></i>
+        <h3>Wholesale &amp; Retail</h3>
+        <p>Serving households, restaurants, hotels and traders alike.</p>
+      </div>
+      <div class="why-card">
+        <i class="fa-solid fa-truck-fast"></i>
+        <h3>Fast Service</h3>
+        <p>Prompt fulfilment across Motihari and Bihar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTS ============ -->
+<section class="section products" id="products">
+  <div class="container">
+    <p class="eyebrow center"><span class="eyebrow-line"></span> Our Products <span class="eyebrow-line"></span></p>
+    <h2 class="center">Rice, Selected for <span class="gold-text">Excellence</span></h2>
+
+    <h3 class="product-group-title"><i class="fa-solid fa-star"></i> Zeeba Basmati Rice</h3>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/c.jpeg" alt="Zeeba Classic Basmati Rice pack"></div>
+        <div class="product-body">
+          <h4>Classic Basmati Rice</h4>
+          <div class="pack-tags"><span>1 Kg</span><span>5 Kg</span><span>10 Kg</span><span>30 Kg</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/e.jpeg" alt="Zeeba Everyday Basmati Rice pack"></div>
+        <div class="product-body">
+          <h4>Everyday Basmati Rice</h4>
+          <div class="pack-tags"><span>1 Kg</span><span>5 Kg</span><span>10 Kg</span><span>30 Kg</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/s.jpeg" alt="Zeeba Super Basmati Rice pack"></div>
+        <div class="product-body">
+          <h4>Super Basmati Rice</h4>
+          <div class="pack-tags"><span>1 Kg</span><span>5 Kg</span><span>10 Kg</span><span>30 Kg</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/d.jpeg" alt="Zeeba Dubar Basmati Rice pack"></div>
+        <div class="product-body">
+          <h4>Dubar Basmati Rice</h4>
+          <div class="pack-tags"><span>1 Kg</span><span>5 Kg</span><span>10 Kg</span><span>30 Kg</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/t.jpeg" alt="Zeeba Tibar Basmati Rice pack"></div>
+        <div class="product-body">
+          <h4>Tibar Basmati Rice</h4>
+          <div class="pack-tags"><span>1 Kg</span><span>5 Kg</span><span>10 Kg</span><span>30 Kg</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/m.jpeg" alt="Zeeba Mogra Basmati Rice pack"></div>
+        <div class="product-body">
+          <h4>Mogra Basmati Rice</h4>
+          <div class="pack-tags"><span>1 Kg</span><span>5 Kg</span><span>10 Kg</span><span>30 Kg</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/mm.jpeg" alt="Zeeba Mini Mogra Basmati Rice pack"></div>
+        <div class="product-body">
+          <h4>Mini Mogra Basmati Rice</h4>
+          <div class="pack-tags"><span>1 Kg</span><span>5 Kg</span><span>10 Kg</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/r.jpeg" alt="Zeeba Rozana Basmati Rice pack"></div>
+        <div class="product-body">
+          <h4>Rozana Basmati Rice</h4>
+          <div class="pack-tags"><span>1 Kg</span><span>5 Kg</span><span>10 Kg</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/tiny.jpeg" alt="Zeeba Tiny Mongra Basmati Rice pack"></div>
+        <div class="product-body">
+          <h4>Tiny Mongra Basmati Rice</h4>
+          <div class="pack-tags"><span>5 Kg</span></div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="product-group-title"><i class="fa-solid fa-star"></i> Ripuraj Products</h3>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/ss.jpeg" alt="Ripuraj Sonashakti Premium Jeera Rice pack"></div>
+        <div class="product-body">
+          <h4>Sonashakti Premium Jeera</h4>
+          <div class="pack-tags"><span>5 Kg</span><span>10 Kg</span><span>26 Kg</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/ms.jpeg" alt="Ripuraj Mahashakti Premium Rice pack"></div>
+        <div class="product-body">
+          <h4>Mahashakti Premium Rice</h4>
+          <div class="pack-tags"><span>5 Kg</span><span>10 Kg</span><span>26 Kg</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media"><img src="images/sj.jpeg" alt="Ripuraj Shaktijeera Premium Rice pack"></div>
+        <div class="product-body">
+          <h4>Shaktijeera Premium Rice</h4>
+          <div class="pack-tags"><span>5 Kg</span><span>10 Kg</span><span>26 Kg</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUALITY ============ -->
+<section class="section quality" id="quality">
+  <div class="container quality-grid">
+    <div class="quality-copy">
+      <p class="eyebrow"><span class="eyebrow-line"></span> Quality</p>
+      <h2>Purity in Every <span class="gold-text">Grain</span></h2>
+      <ul class="quality-list">
+        <li><i class="fa-solid fa-check"></i> Carefully selected from trusted mills</li>
+        <li><i class="fa-solid fa-check"></i> 100% Quality checked</li>
+        <li><i class="fa-solid fa-check"></i> Fresh stock, always</li>
+        <li><i class="fa-solid fa-check"></i> Hygienic storage</li>
+        <li><i class="fa-solid fa-check"></i> Best aroma</li>
+        <li><i class="fa-solid fa-check"></i> Premium taste</li>
+      </ul>
+    </div>
+    <div class="quality-visual">
+      <div class="grain-jar" aria-hidden="true">
+        <svg viewBox="0 0 200 240">
+          <path d="M40 60 Q40 30 100 30 Q160 30 160 60 L155 210 Q150 225 100 225 Q50 225 45 210 Z" fill="url(#jarGrad)" opacity="0.14" stroke="currentColor" stroke-width="1.2"/>
+          <defs><linearGradient id="jarGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4af37"/><stop offset="1" stop-color="#2e7d32"/></linearGradient></defs>
+          <g class="floating-grains">
+            <ellipse cx="75" cy="120" rx="9" ry="4"/>
+            <ellipse cx="105" cy="150" rx="9" ry="4"/>
+            <ellipse cx="130" cy="110" rx="9" ry="4"/>
+            <ellipse cx="90" cy="180" rx="9" ry="4"/>
+            <ellipse cx="120" cy="170" rx="9" ry="4"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <p class="eyebrow center"><span class="eyebrow-line"></span> Gallery <span class="eyebrow-line"></span></p>
+    <h2 class="center">A Glimpse Into Our <span class="gold-text">World</span></h2>
+
+    <div class="masonry" id="masonryGallery">
+      <div class="masonry-item tall"><img src="images/ripuraj.jpeg" alt="Ripuraj premium rice range"></div>
+      <div class="masonry-item"><img src="images/d.jpeg" alt="Zeeba Dubar Basmati Rice"></div>
+      <div class="masonry-item"><img src="images/s.jpeg" alt="Zeeba Super Basmati Rice"></div>
+      <div class="masonry-item tall"><img src="images/ms.jpeg" alt="Ripuraj Mahashakti Premium Rice"></div>
+      <div class="masonry-item"><img src="images/r.jpeg" alt="Zeeba Rozana Basmati Rice"></div>
+      <div class="masonry-item"><img src="images/mm.jpeg" alt="Zeeba Mini Mogra Basmati Rice"></div>
+      <div class="masonry-item tall"><img src="images/sj.jpeg" alt="Ripuraj Shaktijeera Premium Rice"></div>
+      <div class="masonry-item"><img src="images/tiny.jpeg" alt="Zeeba Tiny Mongra Basmati Rice"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close preview"><i class="fa-solid fa-xmark"></i></button>
+  <div class="lightbox-inner" id="lightboxInner"></div>
+</div>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <p class="eyebrow"><span class="eyebrow-line"></span> Contact</p>
+      <h2>Let's Talk <span class="gold-text">Rice</span></h2>
+      <p class="contact-lead">Reach out for wholesale enquiries, retail orders, or just to say namaste.</p>
+
+      <ul class="contact-list">
+        <li>
+          <i class="fa-solid fa-location-dot"></i>
+          <div><strong>Shree B.P. Foods</strong><span>Motihari, Bihar, India</span></div>
+        </li>
+        <li>
+          <a href="tel:+919135017108">
+            <i class="fa-solid fa-phone"></i>
+            <div><strong>Call Us</strong><span>+91 91350 17108</span></div>
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.me/919135017108" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div><strong>WhatsApp</strong><span>+91 91350 17108</span></div>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:shreebpfoods@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <div><strong>Email</strong><span>shreebpfoods@gmail.com</span></div>
+          </a>
+        </li>
+      </ul>
+
+      <div class="social-row">
+        <a href="https://www.instagram.com/shreeb.p.foods?igsh=MTRkeGtnaDNhMXV6Mw==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1BYLLJXLkf/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://share.google/pnUy2478uK1FYLaFB" target="_blank" rel="noopener" aria-label="Google Maps"><i class="fa-solid fa-map-location-dot"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-map">
+      <iframe
+        title="Shree B.P. Foods location — Motihari, Bihar"
+        src="https://www.google.com/maps?q=Motihari,Bihar,India&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark footer-mark" aria-hidden="true">
+        <img src="images/logo.jpeg" alt="">
+      </span>
+      <div>
+        <strong>Shree B.P. Foods</strong>
+        <span>Premium Rice Trading Company, Motihari, Bihar</span>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2026 Shree B.P. Foods. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- ============ FLOATING ACTION BUTTONS ============ -->
+<div class="fabs">
+  <a href="https://wa.me/919135017108" target="_blank" rel="noopener" class="fab fab-whatsapp" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+  <a href="tel:+919135017108" class="fab fab-call" aria-label="Call Shree B.P. Foods">
+    <i class="fa-solid fa-phone"></i>
+  </a>
+  <button class="fab fab-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
